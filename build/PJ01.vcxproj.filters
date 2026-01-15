@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\larns\OneDrive\Desktop\Programming_Projects\School\CSE310\PJ01\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\larns\OneDrive\Desktop\Programming_Projects\School\CSE310\PJ01\src\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\larns\OneDrive\Desktop\Programming_Projects\School\CSE310\PJ01\src\list_write.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\larns\OneDrive\Desktop\Programming_Projects\School\CSE310\PJ01\src\list_read.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\larns\OneDrive\Desktop\Programming_Projects\School\CSE310\PJ01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C58E0872-29DB-3CFF-980A-D18F44D90783}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

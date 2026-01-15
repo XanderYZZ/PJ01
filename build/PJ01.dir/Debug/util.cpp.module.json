@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "PJ01.dir\\Debug\\util.obj",
+            "outputs": [
+                "C:\\Users\\larns\\OneDrive\\Desktop\\Programming_Projects\\School\\CSE310\\PJ01\\build\\PJ01.dir\\Debug\\vc143.pdb",
+                "PJ01.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

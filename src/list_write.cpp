@@ -109,5 +109,7 @@ NODE * listDelete(LIST *pLIST, double key) {
         }
     }
 
+    fprintf(stdout, "Warning in listDelete: Key %lf not in list\n", key);
+
     return NULL;
 }
