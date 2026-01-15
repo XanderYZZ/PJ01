@@ -9,6 +9,10 @@
 #include <stdlib.h>
 
 void listRelease(LIST *pLIST){
+    if (pLIST == NULL) {
+        return;
+    }
+
     NODE *curr = pLIST->head;
 
     while (curr != NULL) {
@@ -24,6 +28,10 @@ void listRelease(LIST *pLIST){
 
 // Inserting at the head.
 NODE * listInsert(LIST *pLIST, double key){
+    if (pLIST == NULL) {
+        return NULL;
+    }
+
     NODE *pNODE = (NODE *) malloc(sizeof(NODE));
     if (!pNODE) { return NULL; }
 
@@ -42,6 +50,10 @@ NODE * listInsert(LIST *pLIST, double key){
 
 // Inserting at the tail.
 NODE * listAppend(LIST *pLIST, double key){
+    if (pLIST == NULL) {
+        return NULL;
+    }
+    
     NODE *pNODE = (NODE *) malloc(sizeof(NODE));
     if (!pNODE) { return NULL; }
 
@@ -63,7 +75,12 @@ NODE * listAppend(LIST *pLIST, double key){
     return pNODE;
 }
 
-NODE * listDelete(LIST *pLIST, double key){
+// I don't free here since I took note that it is freed elsewhere. 
+NODE * listDelete(LIST *pLIST, double key) {
+    if (pLIST == NULL) {
+        return NULL;
+    }
+
     NODE *prev = NULL;
     NODE *curr = pLIST->head;
     
