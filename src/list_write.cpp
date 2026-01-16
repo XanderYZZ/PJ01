@@ -77,7 +77,7 @@ NODE * listAppend(LIST *pLIST, double key){
 
 // I don't free here since I took note that it is freed elsewhere. 
 NODE * listDelete(LIST *pLIST, double key) {
-    if (pLIST == NULL) {
+    if (pLIST == NULL || pLIST->length <= 0) {
         return NULL;
     }
 
